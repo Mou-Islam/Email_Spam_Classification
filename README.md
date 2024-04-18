@@ -5,4 +5,8 @@ messages are not mistakenly identified as spam thus reducing the amount of unwan
 Our motivation,
 By classifying emails as spam or non spam, email providers and users can effectively manage their email
 communications, prioritize important messages, and protect themselves from potential phishing attempts, scams, or
-malware that may be contained within spam emails...
+malware that may be contained within spam emails.
+After cleaning the dataset and removing duplicates resulted in 5157 rows. Our pipeline involved 
+Text pre-processing, vectorization, and application of various algorithms for classification where 
+Random Forest and ExtraTrees Classifier gave the best result with 96% accuracy and precision.
+
